@@ -2,7 +2,7 @@ import axios from 'axios';
 import useAuthStore from '../store/authStore';
 
 const apiClient = axios.create({
-    baseURL:"https://donation-app-backend-l2p1.onrender.com",
+    baseURL:"https://donation-app-backend-l2p1.onrender.com/api/",
     timeout:10000,
     headers:{
         "Content-Type":"application/json"
